@@ -1,0 +1,55 @@
+import ToSignInCSS from "/signupform/ToSignIn.css";
+
+export default function ToSignIn() {
+  return (
+    <div className="row onna mx-auto pl-3 pr-3 pt-3">
+      <div>
+        Aveți deja un cont? <a href="#popup2">Conectați-vă</a>
+      </div>
+
+      <div id="popup2" class="overlay">
+        <div class="popup">
+          <h2>Conectare</h2>
+          <a class="close" href="#">
+            &times;
+          </a>
+
+          <div class="content">
+            <div className="row justify-content-center mx-auto h5">
+              <div className="row pl-3 pr-3 pt-3">
+                <label for="username" className="user-select-none abba">
+                  Nume Utilizator
+                </label>
+                <input
+                  type="text"
+                  placeholder="ex: naturelover271"
+                  name="username"
+                  className="p-2"
+                  required
+                />
+              </div>
+              <div className="row pl-3 pr-3 pt-3">
+                <label for="password" className="user-select-none abba">
+                  Parolă
+                </label>
+                <input
+                  type="password"
+                  placeholder="••••••••"
+                  name="password"
+                  className="p-2"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="row pl-3 pr-3 pt-3 justify-content-center">
+              <button type="submit" className="btn btn-default text-white">
+                Conectați-vă
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

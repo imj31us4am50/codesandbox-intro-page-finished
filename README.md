@@ -1,2 +1,2 @@
-# codesandbox-intro-page-finished
+# codesandbox-intro-page
 Created with CodeSandbox

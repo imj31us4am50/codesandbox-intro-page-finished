@@ -22,7 +22,8 @@ export default function ToSignIn() {
                 </label>
                 <input
                   type="text"
-                  placeholder="ex: naturelover271"
+                  /*placeholder="ex: naturelover271"*/
+
                   name="username"
                   className="p-2"
                   required
@@ -34,7 +35,7 @@ export default function ToSignIn() {
                 </label>
                 <input
                   type="password"
-                  placeholder="••••••••"
+                  /* placeholder="••••••••" */
                   name="password"
                   className="p-2"
                   required

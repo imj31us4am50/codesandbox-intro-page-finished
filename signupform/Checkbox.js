@@ -28,7 +28,7 @@ export default function Checkbox() {
             <br />
             DESCRIEREA SERVICIILOR <br />
             <br />
-            Siteul nostru va pune la dispoziție informațiile din acest site web
+            Site-ul nostru va pune la dispoziție informațiile din acest site web
             în scop informativ general și nu garantează de exactitatea lor la un
             moment dat, deși se va încerca pe cât posibil că la publicarea lor
             pe site toate informațiile să fie exacte. <br />

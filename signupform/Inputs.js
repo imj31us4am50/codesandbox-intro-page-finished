@@ -9,6 +9,7 @@ export default function Inputs() {
         </label>
         <input
           type="text"
+          minLength="6"
           placeholder="ex: naturelover271"
           name="username"
           className="p-2"
@@ -21,6 +22,7 @@ export default function Inputs() {
         </label>
         <input
           type="password"
+          minLength="6"
           placeholder="••••••••"
           name="password"
           className="p-2"

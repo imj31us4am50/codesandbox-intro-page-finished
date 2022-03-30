@@ -53,7 +53,7 @@ export default function Checkbox() {
             dezasamblati aplicația software într-o formă perceptibilă de către
             oameni. Toate informațiile, produsele sau aplicațiile conținute în
             acest site sunt proprietatea Nature Smarter care își rezervă dreptul
-            de a modifică conținutul și/sau structura site-ului în orice moment
+            de a modifica conținutul și/sau structura site-ului în orice moment
             și fără nici o informare prealabilă. Întregul conținut al site-ului
             nostru este protejat prin legea drepturilor de autor, toate
             drepturile fiind rezervate.

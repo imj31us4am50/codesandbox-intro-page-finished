@@ -9,13 +9,13 @@ export default function Checkbox() {
         <a href="#popup1">Termenii și Condițiile</a>
       </label>
 
-      <div id="popup1" class="overlay">
-        <div class="popup">
+      <div id="popup1" className="overlay">
+        <div className="popup termscond">
           <h2>Termenii și Condițiile site-ului Nature Smarter</h2>
           <a class="close" href="#">
             &times;
           </a>
-          <div class="content">
+          <div className="content">
             Condiții Generale pentru utilizarea site-ului Nature Smarter
             <br />
             <br />

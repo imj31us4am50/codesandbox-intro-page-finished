@@ -7,14 +7,14 @@ export default function ToSignIn() {
         Aveți deja un cont? <a href="#popup2">Conectați-vă</a>
       </div>
 
-      <div id="popup2" class="overlay">
-        <div class="popup">
+      <div id="popup2" className="overlay">
+        <div className="popup">
           <h2>Conectare</h2>
-          <a class="close" href="#">
+          <a className="close" href="#">
             &times;
           </a>
 
-          <div class="content">
+          <div className="content">
             <div className="row justify-content-center mx-auto h5">
               <div className="row pl-3 pr-3 pt-3">
                 <label for="username" className="user-select-none abba">
@@ -43,7 +43,7 @@ export default function ToSignIn() {
               </div>
             </div>
 
-            <div class="row pl-3 pr-3 pt-3 justify-content-center">
+            <div className="row pl-3 pr-3 pt-3 justify-content-center">
               <button type="submit" className="btn btn-default text-white">
                 Conectați-vă
               </button>

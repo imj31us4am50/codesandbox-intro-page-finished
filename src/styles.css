@@ -8,6 +8,7 @@ body {
   background: linear-gradient(to left top, var(--lt-green), var(--dk-green))
     no-repeat fixed;
   min-height: 100vh;
+  font-family: "Quicksand", sans-serif;
 }
 * {
   box-sizing: border-box;

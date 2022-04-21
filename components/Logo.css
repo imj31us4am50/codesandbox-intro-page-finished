@@ -1,6 +1,7 @@
 img {
-  width: 150px;
+  max-width: 100%;
+  margin: 0.5em;
 }
-img:hover {
-  cursor: pointer;
+.conaied {
+  max-width: 160px;
 }

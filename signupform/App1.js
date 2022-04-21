@@ -13,9 +13,11 @@ export default function App1() {
   return (
     <div className="container-fluid ozzo mx-auto pb-3">
       <Title />
-      <Inputs />
-      <Checkbox />
-      <Button />
+      <form>
+        <Inputs />
+        <Checkbox />
+        <Button />
+      </form>
       <ToSignIn />
     </div>
   );

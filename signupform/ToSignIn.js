@@ -2,7 +2,7 @@ import ToSignInCSS from "/signupform/ToSignIn.css";
 
 export default function ToSignIn() {
   return (
-    <div className="row onna mx-auto pl-3 pr-3 pt-3">
+    <div className="row onna mx-auto pl-3 pr-3 pt-3" style={ToSignInCSS}>
       <div>
         Aveți deja un cont? <a href="#popup2">Conectați-vă</a>
       </div>
